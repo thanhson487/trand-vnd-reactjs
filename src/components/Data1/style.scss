@@ -1,0 +1,212 @@
+.data1 {
+  background-color: #2f3240;
+  color: #fff;
+
+  flex-grow: 1;
+
+  font-size: 12.8px;
+  line-height: 21.3333px;
+
+  margin: 1px;
+  #datachangeasset {
+    .title-header {
+      display: flex;
+      justify-content: space-between;
+
+      padding: 7px 5px;
+
+      background-color: rgb(58, 61, 72);
+      p {
+        color: #f7941d;
+        font-weight: 700;
+      }
+      .list-icons {
+        color: #f7941d;
+      }
+    }
+    .title-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      font-size: 12.8px;
+
+      padding: 5px;
+      border-bottom: 1px solid rgb(59, 59, 59);
+    }
+  }
+
+  .datachangeorderBook {
+    display: none;
+    .title-header {
+      display: flex;
+      justify-content: space-around;
+      p {
+        text-align: center;
+        font-size: 12px;
+
+        padding: 5px;
+      }
+      .comeinandDay {
+        color: #f7941d;
+
+        font-weight: 700;
+
+        cursor: pointer;
+      }
+      .conditionalOrder {
+        cursor: pointer;
+      }
+      &__icon {
+        color: #f7941d;
+      }
+    }
+    .title-table {
+      display: flex;
+
+      width: 100%;
+
+      padding: 8px;
+
+      background-color: #3a3d48;
+
+      p {
+        text-align: center;
+        font-weight: 700;
+        &:nth-child(1) {
+          width: 15%;
+        }
+        &:nth-child(2) {
+          width: 20%;
+        }
+        &:nth-child(3) {
+          width: 15%;
+        }
+        &:nth-child(4) {
+          width: 20%;
+        }
+      }
+    }
+    .conditionalOrder-menu {
+      display: none;
+      width: 100%;
+      align-items: center;
+      p {
+        flex: 1;
+      }
+    }
+    .data-show {
+      &__detail {
+        display: flex;
+
+        padding: 8px;
+        p {
+          text-align: center;
+
+          &:nth-child(1) {
+            width: 15%;
+          }
+          &:nth-child(2) {
+            width: 20%;
+          }
+          &:nth-child(3) {
+            width: 15%;
+          }
+          &:nth-child(4) {
+            width: 20%;
+          }
+          &:nth-child(5) {
+            color: red;
+          }
+        }
+        &:nth-child(2n) {
+          background-color: #3a3d48;
+        }
+      }
+    }
+  }
+  .datachangeMenu {
+    display: none;
+    .title-header {
+      display: flex;
+      justify-content: space-around;
+      p {
+        text-align: center;
+        font-size: 12px;
+
+        padding: 5px;
+      }
+      .comeinandDay {
+        color: #f7941d;
+
+        font-weight: 700;
+
+        cursor: pointer;
+      }
+      .conditionalOrder {
+        cursor: pointer;
+      }
+      &__icon {
+        color: #f7941d;
+      }
+    }
+    .closeTaste {
+      display: none;
+    }
+    .title-table {
+      display: flex;
+
+      width: 100%;
+
+      padding: 8px;
+
+      background-color: #3a3d48;
+
+      p {
+        text-align: center;
+        font-weight: 700;
+        &:nth-child(1) {
+          width: 15%;
+        }
+        &:nth-child(2) {
+          width: 20%;
+        }
+        &:nth-child(3) {
+          width: 15%;
+        }
+        &:nth-child(4) {
+          width: 30%;
+        }
+      }
+    }
+    .data-show {
+      &__detail {
+        display: flex;
+
+        padding: 8px;
+        p {
+          text-align: center;
+
+          &:nth-child(1) {
+            width: 15%;
+          }
+          &:nth-child(2) {
+            width: 20%;
+          }
+          &:nth-child(3) {
+            width: 15%;
+          }
+          &:nth-child(4) {
+            width: 30%;
+          }
+          &:nth-child(5) {
+            color: red;
+          }
+        }
+        &:nth-child(2n) {
+          background-color: #3a3d48;
+        }
+      }
+    }
+  }
+}

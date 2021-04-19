@@ -1,0 +1,213 @@
+.historydeal {
+  background: #2f3240;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  height: 100%;
+
+  position: relative;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    list-style: none;
+
+    padding: 4px;
+    border-bottom: 1px solid #3a3a3a;
+
+    font-size: 0.9rem;
+
+    color: #ffff;
+    li {
+      line-height: 20px;
+      p {
+        font-weight: 700;
+        font-size: 16px;
+      }
+      span {
+        font-size: 12.8px;
+      }
+      span:nth-child(1) {
+        font-size: 0.8rem;
+      }
+      .san {
+        color: #00c5c5;
+      }
+      .tran {
+        color: #ff25ff;
+      }
+      .tc {
+        color: #ffd900;
+      }
+    }
+  }
+  &__title-row {
+    display: flex;
+    justify-content: space-around;
+
+    .price {
+      color: #f7941d;
+
+      text-decoration: none;
+      font-size: 12.8px;
+      font-weight: 700;
+
+      padding: 5px 0;
+
+      cursor: pointer;
+    }
+    .historyData {
+      color: #ffffff;
+
+      padding: 5px 0;
+
+      font-size: 12.8px;
+
+      cursor: pointer;
+    }
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: #3a3d48;
+    color: #eee;
+
+    padding: 8px;
+
+    &--buy {
+      display: flex;
+      justify-content: space-around;
+
+      font-size: 0.75rem;
+      text-align: center;
+
+      width: 100%;
+
+      border-right: 1px solid rgb(63, 61, 61);
+    }
+    &--sell {
+      display: flex;
+      justify-content: space-around;
+
+      font-size: 0.75rem;
+      text-align: center;
+
+      width: 100%;
+    }
+  }
+  &__row--data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100px;
+
+    height: 100%;
+
+    overflow: auto;
+
+    &--buy--data {
+      font-size: 13px;
+      text-align: center;
+
+      width: 100%;
+
+      border-right: 1px solid rgb(68, 66, 66);
+      border-bottom: 1px solid #444444;
+
+      .buy-kl {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+
+        p {
+          flex: 1;
+
+          width: 100%;
+
+          padding: 5px;
+
+          text-align: center;
+
+          color: #eee;
+
+          position: relative;
+          &:last-child::after {
+            content: "";
+
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+
+            width: 50%;
+
+            background-color: #aeb1bd;
+            opacity: 0.3;
+          }
+          &:last-child {
+            color: rgb(230, 99, 99);
+          }
+        }
+      }
+    }
+    &--sell--data {
+      font-size: 13px;
+      text-align: center;
+
+      width: 100%;
+      .sell-price {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          flex: 1;
+
+          width: 100%;
+          padding: 5px;
+
+          text-align: center;
+
+          color: #eee;
+
+          position: relative;
+
+          &:first-child {
+            color: #0f0;
+          }
+          &:first-child::after {
+            content: "";
+
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+
+            width: 50%;
+
+            background-color: #aeb1bd;
+
+            opacity: 0.3;
+          }
+        }
+      }
+    }
+  }
+}
