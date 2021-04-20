@@ -50,11 +50,9 @@ function Data2(props) {
         <div className="form-group form-group--flexend">
           <button className="button button--green">Mua</button>
           <button className="button button--red">Bán</button>
-          <div>
+          <div className="saveCommand">
             <input type="checkbox" id="saveCommand" />
-            <label htmlFor="saveCommand" className="saveCommand">
-              lưu lệnh
-            </label>
+            <label htmlFor="saveCommand">lưu lệnh</label>
           </div>
         </div>
       </div>
