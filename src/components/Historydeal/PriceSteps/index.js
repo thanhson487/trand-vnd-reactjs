@@ -1,5 +1,5 @@
 import React from "react";
-import PriceStepItems from "./../PriceSteps/index";
+import PriceStepItems from "../PriceStepItems";
 import "./style.scss";
 function PriceSteps(props) {
   return (
@@ -18,8 +18,6 @@ function PriceSteps(props) {
       </div>
       <div className="historydeal__row--data">
         <div className="historydeal__row--data--buy--data">
-          <PriceStepItems />
-          <PriceStepItems />
           <PriceStepItems />
         </div>
       </div>

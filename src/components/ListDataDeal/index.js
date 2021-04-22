@@ -1,4 +1,5 @@
 import React from "react";
+import ShowData from "./ShowData";
 import "./style.scss";
 function ListDataDeal(props) {
   return (
@@ -14,34 +15,10 @@ function ListDataDeal(props) {
           <p>Lệch</p>
           <p>Tổng KL</p>
         </div>
-        <div className="listDataDeal__data">
-          <p>VN30F2104</p>
-          <p>1,183</p>
-          <p>10.0</p>
-          <p>2.93</p>
-          <p className="colorffff">166,644</p>
-        </div>
-        <div className="listDataDeal__data listDataDeal__data--gray">
-          <p>VN30F2435</p>
-          <p>1,183</p>
-          <p>10.0</p>
-          <p>2.93</p>
-          <p className="colorffff">166,644</p>
-        </div>
-        <div className="listDataDeal__data">
-          <p>VN30F2554</p>
-          <p>1,183</p>
-          <p>10.0</p>
-          <p>2.93</p>
-          <p className="colorffff">166,644</p>
-        </div>
-        <div className="listDataDeal__data listDataDeal__data--gray">
-          <p>VN30F2104</p>
-          <p>1,183</p>
-          <p>10.0</p>
-          <p>2.93</p>
-          <p className="colorffff">166,644</p>
-        </div>
+        <ShowData />
+        <ShowData />
+        <ShowData />
+        <ShowData />
       </div>
     </div>
   );

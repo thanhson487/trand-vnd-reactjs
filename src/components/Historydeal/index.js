@@ -1,5 +1,5 @@
 import React from "react";
-import PriceSteps from "../PriceSteps";
+import PriceSteps from "./PriceSteps";
 import "./style.scss";
 
 function Historydeal(props) {
