@@ -8,6 +8,7 @@ function DataChangeMenu(props) {
   const handleClick = (value) => {
     setChecked(value);
   };
+
   return (
     <div className="datachangeMenu">
       <div className="title-header">

@@ -1,4 +1,4 @@
-import TradeViews from "../components/pages/TradeVND";
+import TradeViews from "../pages/TradeVND";
 import "./App.scss";
 
 function App() {

@@ -5,12 +5,9 @@ function Footer(props) {
 
   const [checked, setChecked] = useState(1);
   const handleClick = (value) => {
+    openView(value);
     setChecked(value);
   };
-
-  useEffect(() => {
-    openView(checked);
-  }, [checked, openView]);
 
   return (
     <div className="footer">
