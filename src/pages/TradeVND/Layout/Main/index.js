@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import ShowDataTop from "../../pages/TradeVND/components/ShowDataTop";
-import PlaceForm from "../../pages/TradeVND/components/PlaceForm";
-import Historydeal from "../../pages/TradeVND/components/Historydeal";
-import ListDataDeal from "../../pages/TradeVND/components/ListDataDeal";
-import TradeViewCardBottom from "../../pages/TradeVND/components/TradeViewCardTop";
-import TradeViewCardTop from "../../pages/TradeVND/components/TradeViewCardTop";
+import ShowDataTop from "../../components/ShowDataTop";
+import PlaceForm from "../../components/PlaceForm";
+import Historydeal from "../../components/Historydeal";
+import ListDataDeal from "../../components/ListDataDeal";
+import TradeViewCardBottom from "../../components/TradeViewCardTop";
+import TradeViewCardTop from "../../components/TradeViewCardTop";
 import Footer from "../Footer";
 import "./style.scss";
 

@@ -1,4 +1,4 @@
-import Login from "./../pages/Login/components/Login";
+import Login from "../pages/Login";
 import TradeVND from "./../pages/TradeVND";
 
 const router = [
