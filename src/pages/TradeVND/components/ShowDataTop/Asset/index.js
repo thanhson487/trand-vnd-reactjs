@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-function DataChangeAsset(props) {
+function Asset(props) {
   return (
     <div id="datachangeasset">
       <div className="title-header">
@@ -38,4 +38,4 @@ function DataChangeAsset(props) {
   );
 }
 
-export default DataChangeAsset;
+export default Asset;

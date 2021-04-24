@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-function Data2(props) {
+function PlaceForm(props) {
   return (
     <div className="data2">
       <div className="select-check">
@@ -60,4 +60,4 @@ function Data2(props) {
   );
 }
 
-export default Data2;
+export default PlaceForm;

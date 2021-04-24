@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import DataChangeAsset from "./DataChangeAsset";
-import DataChangeMenu from "./DataChangeMenu";
-import DataChangeOrderBook from "./DataChangeOrderBook";
+import Asset from "./Asset";
+import Menu from "./Menu";
+import OrderBook from "./OrderBook";
 import "./style.scss";
-function Data1(props) {
+function ShowDataTop(props) {
   const { view } = props;
   console.log("🚀 ~ view", view);
   const [Open, setOpenView] = useState(1);
@@ -11,16 +11,16 @@ function Data1(props) {
   useEffect(() => {
     setOpenView(view);
   }, [view]);
-  console.log(view);
+
 
   return (
     <div className="data1">
       {Open === 1 ? (
-        <DataChangeOrderBook />
+        <OrderBook />
       ) : Open === 2 ? (
-        <DataChangeMenu />
+        <Menu />
       ) : Open === 3 ? (
-        <DataChangeAsset />
+        <Asset />
       ) : (
         ""
       )}
@@ -28,4 +28,4 @@ function Data1(props) {
   );
 }
 
-export default Data1;
+export default ShowDataTop;

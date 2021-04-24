@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.scss";
-function DataChangeOrderBook(props) {
+function OrderBook(props) {
   const [openView, setopenView] = useState(1);
 
   const handleClick = (value) => {
@@ -90,4 +90,4 @@ function DataChangeOrderBook(props) {
   );
 }
 
-export default DataChangeOrderBook;
+export default OrderBook;

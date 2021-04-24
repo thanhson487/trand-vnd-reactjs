@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ClosePosition from "./ClosePosition";
 import OpenPosition from "./OpenPosition";
 import "./style.scss";
-function DataChangeMenu(props) {
+function Menu(props) {
   const [checked, setChecked] = useState(1);
 
   const handleClick = (value) => {
@@ -43,4 +43,4 @@ function DataChangeMenu(props) {
   );
 }
 
-export default DataChangeMenu;
+export default Menu;
